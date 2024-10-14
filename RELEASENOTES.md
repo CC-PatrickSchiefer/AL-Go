@@ -2,6 +2,10 @@
 
 - Issue 1241 Increment Version Number might produce wrong app.json
 
+	### New Repository Settings
+
+- `deployTo<environment>`now has an additional property called PageScriptingTests. PageScriptingTests can be a series of PageScriptingTests, executed after deploying the apps to the environment to verify critical scenarios.
+
 ## v6.0
 
 ### Issues
